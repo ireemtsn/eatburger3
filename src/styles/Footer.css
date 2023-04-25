@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color:brown;
+    display: flex;
+    flex-direction: row;
+    border-bottom: rgb(255, 255, 255) 300px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .footer {
+      padding-left: 0px !important;
+    }
+    .footer {
+      font-size: 13px;
+    }
+    .footer {
+      margin: 0;
+    }
+  }
+  
+  .socialMedia{
+   font-size: 40px; 
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+
+  }
